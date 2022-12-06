@@ -11,8 +11,7 @@ Crypto-m是一个基于go-zero框架的通信加、解密中间件管理工具�
 # 相关链接
 源码地址：[https://github.com/chenkaiwei/crypto-m](https://github.com/chenkaiwei/crypto-m)
 
-教程示例：
-[https://github.com/chenkaiwei/crypto-m-samples](https://github.com/chenkaiwei/crypto-m-samples)
+教程示例：[https://github.com/chenkaiwei/crypto-m-samples](https://github.com/chenkaiwei/crypto-m-samples)
 
 # quick start
 ### 服务端：
