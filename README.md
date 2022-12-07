@@ -15,8 +15,7 @@ Crypto-m是一个基于go-zero框架的通信加、解密中间件管理工具�
 
 # quick start
 ### 服务端：
-1. 项目目录下命令行输入
-   >go get github.com/chenkaiwei/crypto-m
+1. >go get github.com/chenkaiwei/crypto-m
 3. 在api文件中按go-zero的规则加入中间件的定义
    ```api
    type (
