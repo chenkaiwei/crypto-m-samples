@@ -2,6 +2,9 @@ module standardDemo
 
 go 1.18
 
+//后续版本更新前的+本地测试可以试试下面帖子里的replace 功能
+//https://blog.csdn.net/u012375924/article/details/110956887
+
 require github.com/zeromicro/go-zero v1.4.2
 
 require github.com/chenkaiwei/crypto-m v1.0.1
