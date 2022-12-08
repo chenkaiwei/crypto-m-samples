@@ -3,6 +3,7 @@ module customDemo
 go 1.18
 
 require (
+	github.com/chenkaiwei/crypto-m v1.0.0
 	github.com/pkg/errors v0.9.1
 	github.com/zeromicro/go-zero v1.4.2
 )
@@ -11,7 +12,6 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
-	github.com/chenkaiwei/crypto-m v0.0.0-20221206132147-ac098ef39901 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
