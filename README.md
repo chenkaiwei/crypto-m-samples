@@ -5,7 +5,7 @@
 
 Crypto-m is an easy-used hybrid-encryption middleware manager which used for go-zero framework。
 
-Crypto-m是一个基于go-zero框架的通信加、解密中间件管理工具，使用不对称加密和对称加密的混合加密策略（hybrid-encryption）。本包设计清晰简洁，使用方便，功能完善，完美契合go-zero原生体系，欢迎广大新老同行选用。
+Crypto-m是一个基于go-zero框架的通信加、解密中间件的三方SDK，使用不对称加密和对称加密的混合加密策略（hybrid-encryption）。本包设计清晰简洁，使用方便，功能完善，完美契合go-zero原生体系，欢迎广大新老同行选用。
 （名称中的后缀-m，既代表中间件middleware，也代表manager，还代表可手动manual。）
 
 # 相关链接
@@ -14,7 +14,7 @@ Crypto-m是一个基于go-zero框架的通信加、解密中间件管理工具�
 教程示例：[https://github.com/chenkaiwei/crypto-m-samples](https://github.com/chenkaiwei/crypto-m-samples)
 
 # 策略简述
-**混合加密策略（hybrid-encryption）**，是当今非常主流的通信加密策略。即由客户端生成一个随机密钥(cek)并以该密钥对称加密消息内容(content)，继而以不对称加密方式加密cek，并将加密后的cek与content一并发往服务端。该加密方式博采众长，兼具不对称加密的安全性和对称加密的高效性，只须保证客户端持有的公钥不被替换（公钥不怕泄露）以及服务端持有的对应私钥没有泄漏，即可非常可靠且高效地保障通信安全。
+**混合加密策略（hybrid-encryption）**，是当今非常主流的通信加密策略。即由客户端生成一个随机密钥(cek)并以该密钥对称加密消息内容(content)，继而以不对称加密方式加密cek，并将加密后的cek与content一并发往服务端。该加密方式博采众长，兼具不对称加密的安全性和对称加密的高效性，用户只须保证客户端持有的公钥不被替换（公钥不怕泄露）以及服务端持有的对应私钥没有泄漏，即可非常可靠且高效地保障通信安全。
 
 本产品提供一套非常便捷的工具帮助您在go-zero项目中引入对该策略的支持，仅需几步简单配置即可完成全套通信加解密体系的搭建
 
