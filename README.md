@@ -5,7 +5,7 @@
 
 Crypto-m is an easy-used hybrid-encryption middleware manager which used for go-zero framework。
 
-Crypto-m是一个基于go-zero框架的通信加、解密中间件的三方SDK，使用不对称加密和对称加密的混合加密策略（hybrid-encryption）。本包设计清晰简洁，使用方便，功能完善，完美契合go-zero原生体系，欢迎广大新老同行选用。
+Crypto-m是一个基于go-zero框架的通信加、解密工具包，使用不对称加密和对称加密的混合加密策略（hybrid-encryption）。本包设计清晰简洁，使用方便，功能完善，完美契合go-zero原生体系，欢迎广大新老同行选用。
 （名称中的后缀-m，既代表中间件middleware，也代表manager，还代表可手动manual。）
 
 # 相关链接
